@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 //有一个number的全局状态，有三个Widget会使用到它，点击FloatingActionButton可以将number的值加1
 void main() {
-  val a = 0
+  val a = 0;
   runApp(
     //将应用的顶层设置为ChangeNotifierProvider, 然后将MyApp()变为它的子Widget。
     ChangeNotifierProvider(
